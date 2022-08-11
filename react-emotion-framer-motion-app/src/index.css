@@ -1,0 +1,21 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* https://cssgradient.io/ */
+body {
+  background: rgb(247, 238, 205);
+  background: linear-gradient(
+    0deg,
+    rgba(247, 238, 205, 1) 0%,
+    rgba(253, 243, 222, 0.998) 75%
+  );
+}

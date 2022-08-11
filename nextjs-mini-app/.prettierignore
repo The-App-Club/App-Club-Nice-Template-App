@@ -1,0 +1,6 @@
+.gitkeep
+.next
+yarn.lock
+.gitignore
+.prettierignore
+.stylelintignore

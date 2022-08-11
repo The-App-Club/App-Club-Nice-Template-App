@@ -1,0 +1,51 @@
+// https://flatuicolors.com/
+
+$font-color: #000000;
+$base-color: #d2dae2;
+$aside-font-color: #34495e;
+
+body {
+  background: $base-color;
+  color: $font-color;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 799px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 auto;
+  }
+}
+
+aside {
+  position: fixed;
+  left: 5vw;
+  width: 100%;
+  max-width: 10vw;
+  opacity: 0;
+  padding: 10px;
+  border: 3px dotted $aside-font-color;
+}
+
+.removed {
+  text-decoration: line-through;
+  color: $aside-font-color;
+  cursor: help;
+  &:hover {
+    color: #ff5e57;
+  }
+}

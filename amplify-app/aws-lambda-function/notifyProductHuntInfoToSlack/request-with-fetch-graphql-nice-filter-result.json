@@ -1,0 +1,93 @@
+{
+  "data": {
+    "posts": {
+      "edges": [
+        {
+          "cursor": "MQ==",
+          "node": {
+            "createdAt": "2021-04-15T07:01:00Z",
+            "featuredAt": "2021-04-15T07:01:00Z",
+            "name": "Calendso",
+            "tagline": "The open source Calendly alternative",
+            "description": "Calendso is the open source Calendly alternative. Self host it, or have it hosted by us. Integrate it seamlessly into your business with advanced customization and the open API. White-label by default, and designed to be a joy to use for you and your visitors.",
+            "votesCount": 600,
+            "website": "https://www.producthunt.com/r/1e485bc668dce3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 5,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/75d8085e-f557-4aae-b5e3-2483e3f436b1.png?auto=format&fit=crop"
+            }
+          }
+        },
+        {
+          "cursor": "Mg==",
+          "node": {
+            "createdAt": "2021-04-15T07:00:17Z",
+            "featuredAt": "2021-04-15T07:00:17Z",
+            "name": "Trove",
+            "tagline": "Create highlights across the internet & send them to Notion",
+            "description": "Trove is a chrome extension that allows you to create highlights and comments across the internet and send them to Notion — without ever leaving your browser. Try Trove now for free!",
+            "votesCount": 211,
+            "website": "https://www.producthunt.com/r/c7f2b15623dfb6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 5,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/b644701f-bb1f-4cb1-9077-0e571d10245c.png?auto=format&fit=crop"
+            }
+          }
+        },
+        {
+          "cursor": "Mw==",
+          "node": {
+            "createdAt": "2021-04-15T07:01:00Z",
+            "featuredAt": "2021-04-15T07:01:00Z",
+            "name": "Piktostory",
+            "tagline": "Get 12x more shares for your video",
+            "description": "Want to boost engagement for your videos? Experience the power of document-like video editing with Piktostory. Turn your webinars, virtual events, Zoom or webcam recordings into customized, bite-size clips ready to drive social media results.",
+            "votesCount": 181,
+            "website": "https://www.producthunt.com/r/8f1042530b0fc3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 5,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/e3d4248d-57c1-4187-8702-a52c45235767.png?auto=format&fit=crop"
+            }
+          }
+        },
+        {
+          "cursor": "NA==",
+          "node": {
+            "createdAt": "2021-04-15T09:27:22Z",
+            "featuredAt": "2021-04-15T09:27:22Z",
+            "name": "PowerTrade",
+            "tagline": "Trade BTC & other crypto options on the go, now on iOS",
+            "description": "PowerTrade makes it easy to trade crypto options on your phone so you can buy Calls or Puts on the go 24/7. Not available in the US.",
+            "votesCount": 167,
+            "website": "https://www.producthunt.com/r/57033d1b24ec7c?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 4.3,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/d91d3d3e-3ebc-48c7-8bb9-a9f6bbb2b0f0.jpeg?auto=format&fit=crop"
+            }
+          }
+        },
+        {
+          "cursor": "NQ==",
+          "node": {
+            "createdAt": "2021-04-15T08:00:00Z",
+            "featuredAt": "2021-04-15T08:00:00Z",
+            "name": "Privacy Policy Template by Juro",
+            "tagline": "Get a privacy policy people can actually read",
+            "description": "With these design patterns by Juro and Stefania Passera, you can turn boring legal text into a transparent, engaging document that people can actually read.",
+            "votesCount": 156,
+            "website": "https://www.producthunt.com/r/c92e9b8195ca66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 4.8,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/d88accf5-dd6e-4682-94fa-14be34e2eaf2.png?auto=format&fit=crop"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

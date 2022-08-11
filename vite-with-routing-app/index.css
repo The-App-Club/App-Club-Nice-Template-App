@@ -1,0 +1,14 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+article {
+  border: 1px solid #000;
+  padding: 30px;
+  width: 80vw;
+}

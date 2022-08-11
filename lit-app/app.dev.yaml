@@ -1,0 +1,35 @@
+runtime: nodejs14
+
+instance_class: F2
+
+# https://cloud.google.com/appengine/docs/standard/php/getting-started/hosting-a-static-website?hl=ja
+handlers:
+  - url: /
+    secure: always
+    static_files: www/index.html
+    upload: www/index.html
+
+  - url: /nice
+    secure: always
+    static_files: www/src/pages/nice/index.html
+    upload: www/src/pages/nice/index.html
+
+  - url: /users
+    secure: always
+    static_files: www/src/pages/users/index.html
+    upload: www/src/pages/users/index.html
+
+  - url: /projects
+    secure: always
+    static_files: www/src/pages/projects/index.html
+    upload: www/src/pages/projects/index.html
+
+  - url: /top
+    secure: always
+    static_files: www/src/pages/top/index.html
+    upload: www/src/pages/top/index.html
+
+  - url: /(.*)
+    secure: always
+    static_files: www/\1
+    upload: www/(.*)

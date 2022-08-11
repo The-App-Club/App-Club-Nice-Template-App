@@ -1,0 +1,22 @@
+diff --git a/node_modules/@tim-soft/react-dat-gui/dist/index.es.js b/node_modules/@tim-soft/react-dat-gui/dist/index.es.js
+index 3c967c6..2e7d53f 100644
+--- a/node_modules/@tim-soft/react-dat-gui/dist/index.es.js
++++ b/node_modules/@tim-soft/react-dat-gui/dist/index.es.js
+@@ -17,7 +17,7 @@ import clamp from 'lodash.clamp';
+ import _objectWithoutProperties from '@babel/runtime/helpers/objectWithoutProperties';
+ import { Spring, animated } from 'react-spring/renderprops.cjs';
+ import { EditableInput, ColorWrap, Saturation, Hue } from 'react-color/lib/components/common';
+-import color from 'react-color/lib/helpers/color';
++import {isValidHex} from 'react-color/lib/helpers/color';
+ import _toConsumableArray from '@babel/runtime/helpers/toConsumableArray';
+ 
+ function styleInject(css, ref) {
+@@ -780,7 +780,7 @@ function (_Component) {
+ 
+     _defineProperty(_assertThisInitialized(_this), "handleChange", function (value, e) {
+       var onChange = _this.props.onChange;
+-      if (color.isValidHex(value)) onChange({
++      if (isValidHex(value)) onChange({
+         hex: value,
+         source: 'hex'
+       }, e);

@@ -1,0 +1,41 @@
+{
+  "name": "lit-based-template-app",
+  "version": "0.0.0",
+  "description": "a lit based spa template app",
+  "type": "module",
+  "scripts": {
+    "obfuscate": "javascript-obfuscator",
+    "crypt": "find dist/www dist/www/src -type f | grep -P 'js$' | grep -v node_modules | xargs -I@ npm run obfuscate @",
+    "analyze": "wca analyze \"src/**/*.js\" --outFile custom-elements.json",
+    "lint": "npm run analyze;npm run lint:lit-analyzer && npm run lint:eslint",
+    "lint:eslint": "eslint 'src/**/*.js'",
+    "lint:lit-analyzer": "lit-analyzer src/**/*.js",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\"",
+    "serve:dev": "npm run build:dev;wds --node-resolve -p 8000 --open --app-index index.html --watch;",
+    "serve:prod": "npm run build:prod;",
+    "build:dev": "cp env-dev.config.js env.config.js;export NODE_APP_ENV_MODE=development;rm -rf dist;node esbuild.js;",
+    "build:prod": "cp env-prod.config.js env.config.js;export NODE_APP_ENV_MODE=production;rm -rf dist;node esbuild.js;sed -i 's_../src/index.js_./index.js_g' dist/www/index.html;"
+  },
+  "dependencies": {
+    "@vaadin/router": "^1.7.4",
+    "lit": "^2.0.0-rc.1",
+    "lit-element": "^3.0.0-rc.1",
+    "shadow-selection-polyfill": "^1.1.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.0.29",
+    "@web/dev-server-esbuild": "^0.2.12",
+    "@web/dev-server-legacy": "^0.1.4",
+    "@web/dev-server-rollup": "^0.2.7",
+    "@webcomponents/webcomponentsjs": "^2.5.0",
+    "babel-eslint": "^10.1.0",
+    "deepmerge": "^4.2.2",
+    "esbuild": "^0.12.9",
+    "eslint": "^6.8.0",
+    "fs-extra": "^10.0.0",
+    "javascript-obfuscator": "^2.19.0",
+    "lit-analyzer": "^1.1.10",
+    "prettier": "^2.0.4",
+    "web-component-analyzer": "^1.0.3"
+  }
+}

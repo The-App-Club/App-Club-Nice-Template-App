@@ -1,0 +1,9 @@
+node_modules*
+.gitignore
+.prettierignore
+.stylelintignore
+favicon.png
+public/favicon.ico
+src/assets/logo.png
+*assets*
+yarn.lock

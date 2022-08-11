@@ -1,0 +1,93 @@
+{
+  "data": {
+    "posts": {
+      "edges": [
+        {
+          "cursor": "MQ==",
+          "node": {
+            "id": "14717",
+            "name": "Startup Stash",
+            "tagline": "A curated directory of 400 resources & tools for startups",
+            "description": "Startup Stash is a curated directory of resources and tools to help you build your startup. It includes 400 products in 40 categories, like for example: Idea Generation, Early users, Marketing, Raising Capital and Customer support. Each category consists of 10 handpicked resources and tools, all with their own detail page that displays some info about the product.",
+            "url": "https://www.producthunt.com/posts/startup-stash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "votesCount": 21091,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/4bb79a58-baab-4434-af76-985ca67ed467.png?auto=format&fit=crop"
+            },
+            "website": "https://www.producthunt.com/r/106d336db2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 4.9
+          }
+        },
+        {
+          "cursor": "Mg==",
+          "node": {
+            "id": "76",
+            "name": "Slack",
+            "tagline": "Be less busy. Real-time messaging, archiving & search.",
+            "description": "Slack is a collaboration hub for work, no matter what work you do. It’s a place where conversations happen, decisions are made, and information is always at your fingertips. With Slack, your team is better connected.",
+            "url": "https://www.producthunt.com/posts/slack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "votesCount": 16452,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/a1a7887b-04ad-4d69-b395-f2d58443f836?auto=format&fit=crop"
+            },
+            "website": "https://www.producthunt.com/r/1ca95d917f?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 4.8
+          }
+        },
+        {
+          "cursor": "Mw==",
+          "node": {
+            "id": "141420",
+            "name": "remove.bg",
+            "tagline": "Remove the background of any image 100% automatically",
+            "description": "Remove.bg removes the background of any photo 100% automatically: You don't have to manually select the background/foreground layers to separate them - just select your image and instantly download the result image with the background removed!",
+            "url": "https://www.producthunt.com/posts/remove-bg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "votesCount": 16322,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/46ed943f-5634-431a-89b7-d4c9047ee88a?auto=format&fit=crop"
+            },
+            "website": "https://www.producthunt.com/r/8eaf923bc275d3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 4
+          }
+        },
+        {
+          "cursor": "NA==",
+          "node": {
+            "id": "75048",
+            "name": "Startup Pitch Decks",
+            "tagline": "Real decks from real startups that raised over $400M",
+            "description": "",
+            "url": "https://www.producthunt.com/posts/startup-pitch-decks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "votesCount": 10618,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/e9f88f98-ede9-42af-9386-09f96eb55f2b.gif?auto=format&fit=crop"
+            },
+            "website": "https://www.producthunt.com/r/7cb4387e0fe072?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 5
+          }
+        },
+        {
+          "cursor": "NQ==",
+          "node": {
+            "id": "22121",
+            "name": "Pexels 2.0",
+            "tagline": "The best free stock photos in one place",
+            "description": "Pexels is a search engine for free stock photos you can use today. This should be your go-to destination when searching for a photo for your next project, or anything.",
+            "url": "https://www.producthunt.com/posts/pexels-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "votesCount": 9945,
+            "thumbnail": {
+              "type": "image",
+              "url": "https://ph-files.imgix.net/0b3a0d78-0517-4ce8-b985-77e7e4e85801?auto=format&fit=crop"
+            },
+            "website": "https://www.producthunt.com/r/55ea589d76?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+App-Club-App+%28ID%3A+45719%29",
+            "reviewsRating": 5
+          }
+        }
+      ]
+    }
+  }
+}

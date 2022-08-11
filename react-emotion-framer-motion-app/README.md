@@ -1,0 +1,7 @@
+- Stack
+  - [emotion](https://emotion.sh/docs/introduction)
+  - [framer-motion](https://www.framer.com/docs/)
+  - [reactrouter](https://reactrouter.com/docs/en/v6)
+  - [troubles-animating-react-router-with-framer-motion](https://stackoverflow.com/questions/67187146/troubles-animating-react-router-with-framer-motion)
+    - バージョンに着目して解決にむかうとトランジションは達成しやすい
+    - https://codesandbox.io/s/framer-motion-animate-react-router-transition-kczeg

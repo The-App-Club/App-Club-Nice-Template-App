@@ -1,0 +1,8 @@
+static/*
+.gitignore
+.eslintignore
+.gcloudignore
+.nodeversion
+.npmversion
+.prettierignore
+generate-url.sh

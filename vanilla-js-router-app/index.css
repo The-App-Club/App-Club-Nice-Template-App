@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: #ddd;
+    color: #333;
+    font-family: 'Kosugi', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 60px;
+  }
+
+  .header {
+    background-color: beige;
+    height: 48px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .header-title {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .footer-title {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cool-navigator {
+    background-color: beige;
+    bottom: 0;
+    height: 48px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .content {
+    left: 0;
+    padding: 0 60px 50px;
+    position: absolute;
+    top: 50px;
+  }
+
+  .cool-navigator nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background: #ddd;
+    color: #333;
+    font-family: 'Kosugi', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 100px;
+  }
+
+  .header {
+    background-color: beige;
+    height: 48px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .header-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: beige;
+    height: 48px;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .footer-title {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cool-navigator {
+    background-color: beige;
+    height: 48px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  .content {
+    left: 0;
+    padding: 0 60px 50px;
+    position: absolute;
+    top: 50px;
+  }
+
+  .cool-navigator nav {
+    height: 100%;
+  }
+
+  .cool-navigator nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    height: 100%;
+  }
+
+  .cool-navigator nav ul li {
+    margin: 20px;
+  }
+
+  .cool-navigator nav ul li.welcome {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

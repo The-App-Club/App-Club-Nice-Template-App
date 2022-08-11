@@ -1,0 +1,142 @@
+// https://codepen.io/FacepalmRobot/pen/pNKKBg
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** =================================================================
+ *
+ * FUNCTIONS / MIXINS
+ *
+ * --------------------------------------------------------------- */
+
+@function clothoid-gradient(
+  $_dir: 'to bottom',
+  $_color: #000000,
+  $_alpha_from: 1,
+  $_alpha_to: 0
+) {
+  $diff: $_alpha_from - $_alpha_to;
+
+  @if type-of($_dir) == string {
+    $_dir: unquote($_dir);
+  }
+
+  @return linear-gradient(
+    $_dir,
+    rgba($_color, $_alpha_from) 0%,
+    rgba($_color, $_alpha_from - $diff * 0.7) 50%,
+    rgba($_color, $_alpha_from - $diff * 0.85) 65%,
+    rgba($_color, $_alpha_from - $diff * 0.925) 75.5%,
+    rgba($_color, $_alpha_from - $diff * 0.963) 82.85%,
+    rgba($_color, $_alpha_from - $diff * 0.981) 88%,
+    rgba($_color, $_alpha_to) 100%
+  );
+}
+
+@mixin clothoid-gradient(
+  $_dir: 'to bottom',
+  $_color: #000000,
+  $_alpha_from: 1,
+  $_alpha_to: 0
+) {
+  background-image: clothoid-gradient($_dir, $_color, $_alpha_from, $_alpha_to);
+}
+
+@function clothoid-mix-gradient(
+  $_dir: 'to bottom',
+  $_color_from: #000000,
+  $_color_to: #ffffff
+) {
+  @if type-of($_dir) == string {
+    $_dir: unquote($_dir);
+  }
+
+  @return linear-gradient(
+    $_dir,
+    mix($_color_to, $_color_from, 0%) 0%,
+    mix($_color_to, $_color_from, 70%) 50%,
+    mix($_color_to, $_color_from, 85%) 65%,
+    mix($_color_to, $_color_from, 92.5%) 75.5%,
+    mix($_color_to, $_color_from, 96.3%) 82.85%,
+    mix($_color_to, $_color_from, 98.1%) 88%,
+    mix($_color_to, $_color_from, 100%) 100%
+  );
+}
+
+@mixin clothoid-mix-gradient(
+  $_dir: 'to bottom',
+  $_color_from: #000000,
+  $_color_to: #ffffff
+) {
+  background-image: clothoid-mix-gradient($_dir, $_color_from, $_color_to);
+}
+
+/** =================================================================
+ *
+ * STYLES
+ *
+ * --------------------------------------------------------------- */
+
+body {
+  background-color: #232323;
+}
+
+#gradients {
+  margin: 5vh 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 90vh;
+
+  svg {
+    width: 50%;
+  }
+
+  p {
+    color: #ffffff;
+    margin: 1em 0;
+    font-weight: bold;
+  }
+
+  .gradient {
+    flex-grow: 1;
+    background-color: #fff;
+  }
+}
+
+#linearAlphaGradient {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(#d81b60, 1),
+    rgba(#d81b60, 0)
+  );
+}
+
+#clothoidAlphaGradient {
+  @include clothoid-gradient(to bottom, #d81b60, 1, 0);
+}
+
+#clothoidAlphaGradient2 {
+  @include clothoid-mix-gradient(to bottom, #d81b60, rgba(#d81b60, 0));
+}
+
+#linearMixGradient {
+  background-image: linear-gradient(to bottom, #ffeb3b, #1e88e5);
+}
+
+#clothoidMixGradient {
+  @include clothoid-mix-gradient(to bottom, #ffeb3b, #1e88e5);
+}
+
+#defs {
+  display: none;
+}

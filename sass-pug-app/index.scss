@@ -1,0 +1,29 @@
+// https://codepen.io/FacepalmRobot/pen/pNKKBg
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.f {
+  padding: 50px;
+}
+
+.f:nth-child(odd) {
+  background-color: #78a8d8;
+}
+
+.f:nth-child(even) {
+  background-color: #d2f08c;
+}
+
+@for $x from 0 through 11 {
+  @for $y from 0 through 11 {
+    .x#{$x}.y#{$y} {
+      left: $x * 50px;
+      top: $y * 50px;
+    }
+  }
+}

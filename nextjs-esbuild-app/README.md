@@ -1,0 +1,1 @@
+[ref](https://github.com/privatenumber/esbuild-loader-examples/tree/master/examples/next)

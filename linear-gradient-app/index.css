@@ -1,0 +1,99 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** =================================================================
+ *
+ * FUNCTIONS / MIXINS
+ *
+ * --------------------------------------------------------------- */
+/** =================================================================
+ *
+ * STYLES
+ *
+ * --------------------------------------------------------------- */
+body {
+  background-color: #232323;
+}
+
+#gradients {
+  margin: 5vh 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 90vh;
+}
+.container svg {
+  width: 50%;
+}
+.container p {
+  color: #ffffff;
+  margin: 1em 0;
+  font-weight: bold;
+}
+.container .gradient {
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+#linearAlphaGradient {
+  background-image: linear-gradient(to bottom, #d81b60, rgba(216, 27, 96, 0));
+}
+
+#clothoidAlphaGradient {
+  background-image: linear-gradient(
+    to bottom,
+    #d81b60 0%,
+    rgba(216, 27, 96, 0.3) 50%,
+    rgba(216, 27, 96, 0.15) 65%,
+    rgba(216, 27, 96, 0.075) 75.5%,
+    rgba(216, 27, 96, 0.037) 82.85%,
+    rgba(216, 27, 96, 0.019) 88%,
+    rgba(216, 27, 96, 0) 100%
+  );
+}
+
+#clothoidAlphaGradient2 {
+  background-image: linear-gradient(
+    to bottom,
+    #d81b60 0%,
+    rgba(216, 27, 96, 0.3) 50%,
+    rgba(216, 27, 96, 0.15) 65%,
+    rgba(216, 27, 96, 0.075) 75.5%,
+    rgba(216, 27, 96, 0.037) 82.85%,
+    rgba(216, 27, 96, 0.019) 88%,
+    rgba(216, 27, 96, 0) 100%
+  );
+}
+
+#linearMixGradient {
+  background-image: linear-gradient(to bottom, #ffeb3b, #1e88e5);
+}
+
+#clothoidMixGradient {
+  background-image: linear-gradient(
+    to bottom,
+    #ffeb3b 0%,
+    #62a6b2 50%,
+    #4097cc 65%,
+    #2f8fd8 75.5%,
+    #268cdf 82.85%,
+    #228ae2 88%,
+    #1e88e5 100%
+  );
+}
+
+#defs {
+  display: none;
+}
+
+/*# sourceMappingURL=index.css.map */

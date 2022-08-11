@@ -1,0 +1,1 @@
+[ref](https://github.com/pradel/create-react-app-swc)

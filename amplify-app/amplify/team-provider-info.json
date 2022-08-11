@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-videoeditapp-dev-52718-authRole",
+      "UnauthRoleArn": "arn:aws:iam::739181196487:role/amplify-videoeditapp-dev-52718-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::739181196487:role/amplify-videoeditapp-dev-52718-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-videoeditapp-dev-52718-deployment",
+      "UnauthRoleName": "amplify-videoeditapp-dev-52718-unauthRole",
+      "StackName": "amplify-videoeditapp-dev-52718",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:739181196487:stack/amplify-videoeditapp-dev-52718/7ae83e60-a084-11eb-9a09-06f2fb97b18f",
+      "AmplifyAppId": "d34uapoz9cjtxw"
+    },
+    "categories": {
+      "function": {
+        "AmplifyVideoEditAppHelloLambda": {
+          "deploymentBucketName": "amplify-videoeditapp-dev-52718-deployment",
+          "s3Key": "amplify-builds/AmplifyVideoEditAppHelloLambda-616d494e6a3356306852-build.zip"
+        }
+      },
+      "auth": {
+        "videoeditappd825a227": {}
+      }
+    }
+  }
+}

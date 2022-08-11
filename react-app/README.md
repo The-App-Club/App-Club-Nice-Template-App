@@ -1,0 +1,5 @@
+- Reference
+  - [a-simple-loading-animation-with-framer-motion](https://dev.to/darthknoppix/a-simple-loading-animation-with-framer-motion-5f8o)
+  - [loading-animation](https://github.com/Darth-Knoppix/loading-animation)
+  - [loading-animation-with-react-js-styled-components](https://dev.to/gabrlcj/loading-animation-with-react-js-styled-components-3m0n)
+  - [ESlint で import を自動ソートする](https://zenn.dev/riemonyamada/articles/02e8c172e1eeb1)

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>rolling</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script type="text/javascript">
+      console.log('hello');
+    </script>
+  </head>
+  <body>
+    <div id="gradients">
+      <div class="container">
+        <svg viewBox="0 0 300 300">
+          <use xlink:href="#linear" x="0" y="0" />
+        </svg>
+        <p>Linear Gradient</p>
+        <div id="linearAlphaGradient" class="gradient"></div>
+      </div>
+
+      <div class="container">
+        <svg viewBox="0 0 300 300">
+          <use xlink:href="#clothoid" x="0" y="0" />
+        </svg>
+        <p>Clothoid Gradient</p>
+        <div id="clothoidAlphaGradient" class="gradient"></div>
+      </div>
+
+      <div class="container">
+        <svg viewBox="0 0 300 300">
+          <use xlink:href="#linear" x="0" y="0" />
+        </svg>
+        <p>Linear Mix Gradient</p>
+        <div id="linearMixGradient" class="gradient"></div>
+      </div>
+
+      <div class="container">
+        <svg viewBox="0 0 300 300">
+          <use xlink:href="#clothoid" x="0" y="0" />
+        </svg>
+        <p>Clothoid Mix Gradient</p>
+        <div id="clothoidMixGradient" class="gradient"></div>
+      </div>
+    </div>
+
+    <svg
+      id="defs"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      width="300px"
+      height="300px"
+      viewBox="0 0 300 300"
+      style="enable-background: new 0 0 300 300"
+      xml:space="preserve"
+    >
+      <style type="text/css">
+        .st0 {
+          fill: none;
+          stroke: #ffffff;
+          stroke-width: 3;
+        }
+        .st1 {
+          fill: none;
+          stroke: #ffffff;
+          stroke-width: 1;
+        }
+        .st2 {
+          fill: #ffffff;
+        }
+      </style>
+
+      <defs>
+        <g id="linear">
+          <line class="st0" x1="0" y1="300" x2="300" y2="0" />
+          <path class="st1" d="M299,1v298H1V1H299 M300,0H0v300h300V0L300,0z" />
+        </g>
+        <g id="clothoid">
+          <path class="st1" d="M299,1v298H1V1H299 M300,0H0v300h300V0L300,0z" />
+          <path
+            class="st2"
+            d="M3,300H0v-2.4c0-10.4,0-21.2,0.1-31.8l0-5.2c0-7.7,0.1-15.8,0.4-23.7C1,218.3,2.1,196.2,6,174.1
+        c4-22,10.4-41.6,19.8-60C35.1,95.8,47.2,79.1,62.9,63c15.2-15.2,32.4-27.6,51.2-37c18.1-9.4,37.6-15.9,59.6-19.9
+        c22.6-4,44.5-5,63-5.5c11-0.3,21.3-0.4,29.2-0.4C276.6,0,287.5,0,298,0h2v3h-2c-10.6,0-21.5,0-32.2,0.1c-7.8,0-18.2,0.1-29.1,0.4
+        C218.4,4,196.5,5,174.2,9c-21.7,4-40.9,10.4-58.7,19.7C96.9,37.9,80,50.1,65.1,65.1C49.6,81,37.6,97.5,28.5,115.4
+        c-9.2,18.1-15.6,37.5-19.5,59.2C5,196.5,4,218.5,3.5,237c-0.3,7.9-0.4,15.8-0.4,23.6l0,5.2C3,276.4,3,287.2,3,297.6V300z"
+          />
+        </g>
+      </defs>
+    </svg>
+  </body>
+</html>

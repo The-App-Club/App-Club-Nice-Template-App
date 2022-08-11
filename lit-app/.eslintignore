@@ -1,0 +1,7 @@
+node_modules/*
+static/*
+custom-elements.json
+.eslintignore
+.gitignore
+.gcloudignore
+.gitkeep

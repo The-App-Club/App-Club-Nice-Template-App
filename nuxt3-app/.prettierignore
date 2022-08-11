@@ -1,0 +1,10 @@
+node_modules*
+.gitignore
+.prettierignore
+.stylelintignore
+*image*
+*video*
+*svg*
+.output
+.nuxt
+yarn.lock

@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/hello",
+            "lambdaFunction": "AmplifyVideoEditAppHelloLambda",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/hello"
+        }
+    ],
+    "resourceName": "AmplifyVideoEditAppRestPythonApi",
+    "apiName": "AmplifyVideoEditAppRestPythonApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "AmplifyVideoEditAppHelloLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-videoeditapp-dev-52718-authRole",
+        "unAuthRoleName": "amplify-videoeditapp-dev-52718-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "AmplifyVideoEditAppHelloLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

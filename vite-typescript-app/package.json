@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && yarn build-top && yarn build-demo1 && yarn build-demo2 && yarn build-demo3",
+    "serve": "vite preview",
+    "build-top": "vite build",
+    "build-demo1": "vite build --config vite.config.demo1.ts",
+    "build-demo2": "vite build --config vite.config.demo2.ts",
+    "build-demo3": "vite build --config vite.config.demo3.ts",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\"",
+    "lint": "stylelint --fix \"{,!(node_modules|dist|build)/**/}*.css*\" \"{,!(node_modules|dist|build)/**/}*.scss*\""
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "sass": "^1.43.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.2",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
