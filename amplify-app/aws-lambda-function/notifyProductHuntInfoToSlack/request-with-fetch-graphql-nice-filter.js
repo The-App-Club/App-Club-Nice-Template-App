@@ -5,7 +5,7 @@ const currentToday =
 const fetch = require("node-fetch");
 const opts = {
   headers: {
-    Authorization: "Bearer 1eQlQcZduzGn8G-SiV9INocu_AlTEZ31GkvsyAA3rDY",
+    Authorization: "Bearer HERE_YOUR_TOKEN",
     Accept: "application/json",
     "Content-Type": "application/json",
   },

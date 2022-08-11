@@ -3,7 +3,7 @@ exports.handler = async (event) => {
   const { IncomingWebhook } = require("@slack/webhook");
 
   const url =
-    "https://hooks.slack.com/services/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";
+    "HERE_YOUR_SLACK_WEBHOOK_URL";
 
   const webhook = new IncomingWebhook(url);
 

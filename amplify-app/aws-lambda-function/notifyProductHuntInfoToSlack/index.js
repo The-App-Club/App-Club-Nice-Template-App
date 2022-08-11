@@ -60,7 +60,7 @@ function getProductHuntInfo() {
       moment().subtract(1, "days").format("YYYY-MM-DDT") + "00:00:00Z";
     const opts = {
       headers: {
-        Authorization: "Bearer 1eQlQcZduzGn8G-SiV9INocu_AlTEZ31GkvsyAA3rDY",
+        Authorization: "Bearer HERE_YOUR_TOKEN",
         Accept: "application/json",
         "Content-Type": "application/json",
       },
@@ -134,7 +134,7 @@ exports.handler = async (event) => {
   const { IncomingWebhook } = require("@slack/webhook");
 
   const url =
-    "https://hooks.slack.com/services/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";
+    "HERE_YOUR_SLACK_WEBHOOK_URL";
 
   const webhook = new IncomingWebhook(url);
 
